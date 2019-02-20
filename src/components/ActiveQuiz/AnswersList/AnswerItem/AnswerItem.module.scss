@@ -9,4 +9,13 @@
 		background: rgba(255, 255, 255, .2);
 		transition: background 300ms ease-in-out;
 		}
+
+	/* если не указать & игорируются стили ниже. классы из импортов присваиваются, но фон не меняется */
+	&.success {
+		background: rgba(161, 240, 69, .7);
+		}
+
+	&.failure {
+		background: rgba(255, 87, 108, .7);
+		}
 	}
